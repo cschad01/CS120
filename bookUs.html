@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Cape Cod Slackers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ultra&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    footer { margin-top: 70px;}
+    .label {
+        display: inline-block;
+        text-align: right;
+        width: 140px;
+        vertical-align: top;
+    }
+    .item {
+    display: inline-block;
+    width: 260px;
+    text-align: left;
+}
+</style> 
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="theCapeCodSlackers.html">Home</a>
+        <a href="upcomingEvents.html">Upcoming Events</a>
+        <a href="aboutTheBand.html">About the Band</a>
+        <a href="bookUs.html">Book Us</a>
+        </nav>
+    </header>
+    <h2 style="font-family: 'Ultra', serif;">Book The Cape Cod Slackers</h2>
+    <p class="form-intro">
+        Planning a wedding, private party, or special event? Fill out the form below and we will be in touch soon.
+    </p>
+
+    <form>
+        <div class="label"><label for="name">Name:</label></div>
+        <div class="item"><input type="text" id="name" name="name"></div>
+        <br><br>
+
+        <div class="label"><label for="phone">Phone Number:</label></div>
+        <div class="item"><input type="text" id="phone" name="phone"></div>
+        <br><br>
+
+        <div class="label"><label for="email">Email:</label></div>
+        <div class="item"><input type="text" id="email" name="email"></div>
+        <br><br>
+
+        <div class="label"><label for="contact">Preferred Contact:</label></div>
+        <div class="item">
+            <select name="contact" id="contact">
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+            </select>
+        </div>
+        <br><br>
+
+        <div class="label"><label for="comments">Comments:</label></div>
+        <div class="item">
+            <textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+        </div>
+        <br><br>
+
+        <div class="label"></div>
+        <div class="item"><input type="submit" value="Submit" class="button"></div>
+    </form>
+
+    <footer>
+        <p> The Cape Cod Slackers <br>
+         Cape Cod, Massachusetts <br>
+        <a href="bookUs.html">booking@thecapecodslackers.com</a></p>
+    </footer>
+</body>
+</html>
